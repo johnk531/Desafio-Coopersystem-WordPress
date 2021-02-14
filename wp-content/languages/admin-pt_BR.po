@@ -13752,7 +13752,7 @@ msgstr "Nome da nova categoria"
 
 #: wp-admin/includes/meta-boxes.php:1141 wp-admin/includes/meta-boxes.php:1143
 msgid "+ Add New Category"
-msgstr "+ Adicionar nova categoria"
+msgstr "+ Adicionar"
 
 #: wp-admin/includes/meta-boxes.php:230 wp-admin/includes/meta-boxes.php:244
 msgid "Publish <b>immediately</b>"

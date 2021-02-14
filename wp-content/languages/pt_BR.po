@@ -12093,7 +12093,7 @@ msgstr "Nome da nova categoria de links"
 
 #: wp-includes/taxonomy.php:137
 msgid "Add New Link Category"
-msgstr "Adicionar nova categoria de links"
+msgstr "Adicionar"
 
 #: wp-includes/taxonomy.php:136
 msgid "Update Link Category"
@@ -12165,7 +12165,7 @@ msgstr "Nome da nova tag"
 
 #: wp-includes/taxonomy.php:596
 msgid "Add New Category"
-msgstr "Adicionar nova categoria"
+msgstr "Adicionar"
 
 #: wp-includes/taxonomy.php:596
 msgid "Add New Tag"

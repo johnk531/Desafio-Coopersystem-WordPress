@@ -455,7 +455,7 @@ if ( $can_edit_terms ) {
 <?php endif; // global_terms_enabled() ?>
 	<?php if ( is_taxonomy_hierarchical( $taxonomy ) ) : ?>
 <div class="form-field term-parent-wrap">
-	<label for="parent"><?php echo esc_html( $tax->labels->parent_item ); ?></label>
+	<label for="parent"><?php echo 'Ascendente'; ?></label>
 		<?php
 		$dropdown_args = array(
 			'hide_empty'       => 0,
