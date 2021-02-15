@@ -247,11 +247,11 @@ msgstr "Fechar menu"
 
 #: template-parts/pagination.php:25
 msgid "Older <span class=\"nav-short\">Posts</span>"
-msgstr "<span class=\"nav-short\">Posts</span> mais antigos"
+msgstr "<span class=\"nav-short\"></span> mais antigos"
 
 #: template-parts/pagination.php:21
 msgid "Newer <span class=\"nav-short\">Posts</span>"
-msgstr "<span class=\"nav-short\">Posts</span> mais recentes"
+msgstr "<span class=\"nav-short\"></span> mais recentes"
 
 #. Template Name of the theme
 msgid "Full Width Template"

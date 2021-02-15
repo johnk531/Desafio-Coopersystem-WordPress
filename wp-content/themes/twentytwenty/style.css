@@ -6469,3 +6469,12 @@ a.to-the-top > * {
 		top: 0;
 	}
 }
+
+/* Customização no tema */
+
+.featured-media-inner.section-inner {
+    background: #f5efe0;
+    padding-top: 50px;
+    width: 100%;
+    max-width: 100%;
+}

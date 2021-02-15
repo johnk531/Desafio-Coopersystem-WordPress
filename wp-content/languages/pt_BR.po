@@ -12177,11 +12177,11 @@ msgstr "Atualizar tag"
 
 #: wp-includes/taxonomy.php:592
 msgid "Parent Category:"
-msgstr "Categoria ascendente:"
+msgstr "Categoria:"
 
 #: wp-includes/taxonomy.php:591 wp-includes/js/dist/editor.js:11302
 msgid "Parent Category"
-msgstr "Categoria ascendente"
+msgstr "Categoria"
 
 #: wp-includes/taxonomy.php:590
 msgid "All Tags"

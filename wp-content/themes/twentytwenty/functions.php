@@ -784,6 +784,7 @@ function type_post_anuncio() {
 		'public_queryable' => true,
 		'show_ui' => true,           
 		'query_var' => true,
+		'menu_icon' => 'dashicons-megaphone',
 		'rewrite' => true,
 		'capability_type' => 'post',
 		'has_archive' => true,
