@@ -264,7 +264,7 @@ final class _WP_Editors {
 			'<div id="wp-' . $editor_id_attr . '-editor-container" class="wp-editor-container">' .
 			$quicktags_toolbar .
 			'<textarea' . $editor_class . $height . $tabindex . $autocomplete . ' cols="40" name="' . esc_attr( $set['textarea_name'] ) . '" ' .
-			'id="' . $editor_id_attr . '">%s</textarea></div>'
+			'id="' . $editor_id_attr . '" required>%s</textarea></div>'
 		);
 
 		// Prepare the content for the Visual or Text editor, only when TinyMCE is used (back-compat).

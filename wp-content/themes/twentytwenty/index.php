@@ -66,7 +66,7 @@ get_header();
 				<?php } ?>
 
 				<?php if ( $archive_subtitle ) { ?>
-					<div class="archive-subtitle section-inner thin max-percentage intro-text"><?php echo wp_kses_post( wpautop( $archive_subtitle ) ); ?></div>
+					<div class="archive-subtitle section-inner thin max-percentage intro-text"><?php echo wp_kses_post( wpautop( $archive_subtitle ) ); ?></div>				
 				<?php } ?>
 
 			</div><!-- .archive-header-inner -->
@@ -102,7 +102,7 @@ get_header();
 				)
 			);
 			?>
-
+		
 		</div><!-- .no-search-results -->
 
 		<?php

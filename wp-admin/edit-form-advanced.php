@@ -519,7 +519,7 @@ do_action( 'edit_form_top', $post );
 	$title_placeholder = apply_filters( 'enter_title_here', __( 'Add title' ), $post );
 	?>
 	<label class="screen-reader-text" id="title-prompt-text" for="title"><?php echo $title_placeholder; ?></label>
-	<input type="text" name="post_title" size="30" value="<?php echo esc_attr( $post->post_title ); ?>" id="title" spellcheck="true" autocomplete="off" />
+	<input required type="text" name="post_title" size="30" value="<?php echo esc_attr( $post->post_title ); ?>" id="title" spellcheck="true" autocomplete="off" />
 </div>
 	<?php
 	/**

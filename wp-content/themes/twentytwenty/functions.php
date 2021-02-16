@@ -807,3 +807,26 @@ register_taxonomy(
 		"hierarchical" => true
 	) 
 );
+
+/* limitando a busca apenas para anuncios */
+if (!is_admin()) { 
+	function buscar_somente_anuncios($query) {
+	  if ($query->is_search) { 
+		$query->set('post_type', 'anuncios'); 
+	  }
+	return $query;
+	}
+	/* Adiciona a função ao filtro pre_get_posts */
+	add_filter('pre_get_posts','buscar_somente_anuncios'); 
+  }
+
+/* Tornando os campos obrigatorios */
+function check_if_post_content_set( $maybe_empty, $postarr ) {
+if($postarr['ID'] && (int)$postarr['ID'] > 0){
+	if( !$postarr['post_content'] OR $postarr['post_content'] == '' OR $postarr['post_content'] == NULL ){
+		$maybe_empty = true;
+	}
+}
+return $maybe_empty;
+}
+add_filter( 'wp_insert_post_empty_content', 'check_if_post_content_set', 999999, 2 );
